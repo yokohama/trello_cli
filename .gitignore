@@ -1,2 +1,4 @@
-trello-cli/__pycache__/*
+Trello_CLI.egg-info/
+trello_cli/__pycache__
+
 .env
