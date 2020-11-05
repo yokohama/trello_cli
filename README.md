@@ -35,7 +35,7 @@ pip install dist/Trello_CLI-0.0.1-py3-none-any.whl
 ## 環境変数のファイルを作成
 
 ```
-# trello_cliがインストールされたフォルダを検索
+# trello_cliがインストールされたフォルダを検索して、.envファイルを作成
 $ find ~/ -name trello_cli -print
 /home/username/anaconda3/lib/python3.8/site-packages/trello_cli #環境による
 
@@ -43,6 +43,8 @@ $ touch /home/username/anaconda3/lib/python3.8/site-packages/trello_cli/.env
 ```
 
 ## 環境変数ファイルに内容を記述する
+[https://trello.com/app-key](https://trello.com/app-key)
+こちらから、Key, Token, Secretを取得する
 ``` .env
 TRELLO_API_KEY=xxxxxxxxxxxxxx
 TRELLO_API_SECRET=xxxxxxxxxxxxxxxx
